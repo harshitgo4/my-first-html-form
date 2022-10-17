@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NCC Form </title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
-<body>
-    <h3>NCC registration form</h3>
+<body class="whole">
+     <div class="form" >
+         <img class="img" src="images\ncc.jpg" alt="NCC images">
+   <div class="content">
+   <h3 class="headline">NCC registration form</h3>
     <form action ="backend.php">
         <label for ="name">Name</label>
-        <div><input type ="text" name="Myname" id ="name">
+        <div><input type ="text" name="Myname" id ="name" placeholder="--name--">
         </div>
         <label for ="college">college</label>
-        <div><input type ="text" name="Mycollege" id ="college">
+        <div><input type ="text" name="Mycollege" id ="college" placeholder="--college--">
         </div>
         <label for ="Mob_number">Mobile number </label>
-        <div><input type = "number" name="Mynumber" id ="Mob_number">
+        <div><input type = "number" name="Mynumber" id ="Mob_number" placeholder="--mobile no.--">
         </div>
-        <label for="age">Are you 18+ ?</label>
-        <div><input type="checkbox" name="Myeligibilty" id="age">    
+        <div class="age-box">
+        <label for="age" style="display: inline-block;">Are you 18+ ?</label>
+        <div style="display: inline-block;"><input type="checkbox" name="Myeligibilty" id="age">    
         </div>
+    </div>
+       <div class="btn"> <button class="submit"> <strong> Submit</strong></button></div>
         <label for =</label>
-        
-
+        </div>
+        </div>
     </form>                                            
     
 </body>
