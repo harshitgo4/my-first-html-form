@@ -1,0 +1,45 @@
+.form{
+    display: inline-block;
+    background-image: url("images\form back.jpg");
+    border: 2px;  
+    border-style: solid;
+    border-color: rgb(127, 134, 134);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 8px 5px #888888;
+}
+
+.content{
+    border-radius: 20px;
+    background-color: rgb(156, 201, 238);
+    text-align: center;
+   
+}
+
+.img{
+    border-radius: 20px;
+    height: 120px;
+    
+}
+.headline{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.submit{
+    display: inline-block;
+    background-color: rgb(241, 0, 0);
+    color: beige;
+    border-radius: 10px;
+    border-style: none;
+    height: 30px;
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.age-box{
+    display: block;
+}
+.whole{
+    text-align: center;
+}
